@@ -1,0 +1,56 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  background-color: #ffe0b4;
+  height: 5em;
+  border-radius: 0em 0em 2em 2em;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  width: 2em;
+  height: auto;
+}
+
+.ProfileData {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.ProfileName {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.ProfileGreeting {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #7f8a94;
+}
+
+.ProfileImage {
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  margin-left: 1rem;
+  background-color: white;
+  border: 0.1em solid #ff9800;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProfileImg {
+  width: 2.4em;
+  height: 2.4em;
+}

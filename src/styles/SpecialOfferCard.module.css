@@ -1,0 +1,48 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 0rem 2rem 0rem;
+}
+.Card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 11em;
+  padding: 0em 1em;
+  background-color: #ffe0a7;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  height: inherit;
+}
+
+.Text1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ff9800;
+}
+
+.Text2 {
+  font: 400 1em Poppins, sans-serif;
+  color: #343434;
+}
+.Button {
+  color: #ffffff;
+  font: 400 1rem Poppins, sans-serif;
+  cursor: pointer;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 5em;
+  padding: 0.3em 1em;
+}

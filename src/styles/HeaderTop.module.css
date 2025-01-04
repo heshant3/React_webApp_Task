@@ -1,0 +1,43 @@
+/* Wrapper for the header */
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.BackButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+  background-color: #ffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.BackButton::after {
+  content: "<";
+  color: #ff9800;
+  font-size: 2em;
+}
+
+.Text {
+  font: 500 1.2em Poppins, sans-serif;
+  color: #ffff;
+}
+
+.FavoriteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+  background-color: #929292;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #ffff;
+}

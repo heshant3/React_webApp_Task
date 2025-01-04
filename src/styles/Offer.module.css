@@ -1,0 +1,161 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  perspective: 1000px; /* Add perspective for 3D effect */
+}
+.Container .slick-slide {
+  transform: scale(0.85); /* Scale down the slides */
+  transition: transform 0.5s ease;
+}
+
+.Container .slick-center {
+  transform: scale(1); /* Scale up the center slide */
+}
+
+.BoxContainer {
+  width: 20rem;
+  height: 28rem;
+  border-radius: 2em;
+  overflow: hidden;
+  position: relative;
+  padding: 2em 1em 0em 1em;
+  background-image: url("../assets/OfferImage.png"); /* Add your image path here */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.BoxContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.BoxTop,
+.logo,
+.CloseBtn {
+  position: relative;
+  z-index: 1;
+}
+
+.BoxTop {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: auto;
+}
+.OfferImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo {
+  width: auto;
+  height: 2em;
+}
+
+.CloseBtn {
+  background-color: rgba(255, 255, 255, 0);
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 300 2em Poppins, sans-serif;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.DetailsContainer {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0rem;
+}
+
+.NameTag {
+  text-align: center;
+  width: 5em;
+  height: 1.9em;
+  padding: 0em 0em;
+  border-radius: 2em;
+  background-color: #fff4e4;
+  font-size: 0.9rem;
+  line-height: 1.9em;
+  color: #ff9800;
+}
+
+.NameText {
+  font: 600 1.5em Poppins, sans-serif;
+  color: #ffffff;
+  padding: 1rem 0rem;
+}
+
+.RatingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.RatingTab {
+  display: flex;
+  align-items: center;
+  width: 5em;
+  height: 1.9em;
+  border-radius: 1em;
+  border: 0.06em solid #ffffff;
+  margin-right: 0.9em;
+  color: #ffffff;
+  justify-content: space-around;
+  font: 600 0.9em Poppins, sans-serif;
+}
+
+.ReviewsText {
+  font: 600 0.9em Poppins, sans-serif;
+  color: #e4e4e4d0;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  border-radius: 5em;
+  background-color: #9257009a;
+  color: #ffffff;
+  font: 500 1rem Poppins, sans-serif;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.Button::after {
+  content: ">";
+  position: absolute;
+  right: 0.2em;
+  width: 1.7em;
+  height: 1.7em;
+  background-color: #ffffff;
+  color: #ff9900b4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
