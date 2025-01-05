@@ -80,13 +80,13 @@ project-root/
 
 ![Home Page Screenshot](https://github.com/heshant3/React_webApp_Task/blob/e424dbe7aa01408572a009a8bf8f9e2ff67e016f/img1.png)
 
-### 2. **Task List**
+### 2. **Page 2**
 
-![Task List Screenshot](https://via.placeholder.com/800x400)
+![Task List Screenshot](https://github.com/heshant3/React_webApp_Task/blob/e424dbe7aa01408572a009a8bf8f9e2ff67e016f/img3.png)
 
-### 3. **Task Details**
+### 3. **Page 3**
 
-![Task Details Screenshot](https://via.placeholder.com/800x400)
+![Task Details Screenshot](https://github.com/heshant3/React_webApp_Task/blob/e424dbe7aa01408572a009a8bf8f9e2ff67e016f/img4.png)
 
 ---
 
