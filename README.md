@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+Task APp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Project Setup
 
-## Available Scripts
+Folder Structure
 
-In the project directory, you can run:
+Assumptions and Trade-offs
 
-### `npm start`
+Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+How to Contribute
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+License
 
-### `npm test`
+Project Setup
+Follow these steps to set up and run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Prerequisites
+Node.js (version x.x.x or higher)
 
-### `npm run build`
+npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation
+Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/your-username/your-project-name.git
+cd your-project-name
+Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
+Run the development server:
 
-### `npm run eject`
+npm start
+Open your browser and navigate to http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Folder Structure
+The folder structure is designed to maintain clarity and scalability:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+project-root/
+│
+├── public/ # Static files
+│ └── images/ # Images for the project
+│
+├── src/ # Main source code
+│ ├── assets/ # Static assets like icons and images
+│ ├── components/ # Reusable React components
+│ ├── pages/ # Page-level components
+│ ├── styles/ # CSS/SCSS modules for styling
+│ ├── utils/ # Utility functions and helpers
+│ └── App.js # Main app component
+│
+├── .gitignore # Ignored files
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation
+Assumptions and Trade-offs
+Assumptions
+The project uses React with functional components and hooks.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+UI components are styled using CSS modules for better encapsulation.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project assumes users have basic familiarity with JavaScript and React.
 
-## Learn More
+Trade-offs
+Horizontal scrolling: Implemented using native scroll functionality for better performance across devices, trading off some customizability.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Component modularity: Simplified for this project but can be expanded for larger-scale applications.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Screenshots
+Home Page
 
-### Code Splitting
+Category Scrolling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Drag Slider Implementation
 
-### Analyzing the Bundle Size
+Replace the placeholders with actual screenshots of your project's UI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+How to Contribute
+Fork the repository.
 
-### Making a Progressive Web App
+Create a new branch for your feature/fix.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Commit your changes and push the branch.
 
-### Advanced Configuration
+Create a pull request describing your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License.
