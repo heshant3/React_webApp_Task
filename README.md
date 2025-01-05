@@ -78,7 +78,7 @@ project-root/
 
 ### 1. **Home Page**
 
-![Home Page Screenshot](https://via.placeholder.com/800x400)
+![Home Page Screenshot](https://github.com/heshant3/React_webApp_Task/blob/e424dbe7aa01408572a009a8bf8f9e2ff67e016f/img1.png)
 
 ### 2. **Task List**
 
