@@ -1,0 +1,101 @@
+.Container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ItemContainer {
+  padding: 0.3em;
+}
+
+.Box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12em;
+  height: 12em;
+  padding: 0.2em 0;
+  border-radius: 1em;
+  overflow: hidden;
+  background-color: #f4f4f4;
+}
+
+.Image {
+  position: relative;
+  object-fit: cover;
+  z-index: 0;
+  width: 12em;
+  height: 12.5em;
+}
+
+.FavoriteIcon {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  z-index: 1;
+}
+
+.ProfileContainer {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5em;
+  z-index: 1;
+  max-width: calc(100% - 1em);
+  overflow: hidden;
+}
+
+.ProfileImage {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  border: #f4f4f4 solid 0.1em;
+}
+.Image2 {
+  object-fit: cover;
+  width: 2em;
+  height: 2em;
+}
+
+.Text {
+  font: 600 0.9em Poppins, sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.BottomText {
+  padding-top: 1em;
+  font: 600 0.6em Poppins, sans-serif;
+  color: #000000;
+}
+
+.TagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.Tag {
+  font: 400 0.6em Poppins, sans-serif;
+  color: #ffffff;
+  background-color: #ffffff;
+  padding: 0.4em 0.9em;
+  border-radius: 1em;
+  background-color: #ff9800;
+}

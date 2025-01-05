@@ -22,7 +22,7 @@
   overflow: hidden;
   position: relative;
   padding: 2em 1em 0em 1em;
-  background-image: url("../assets/OfferImage.png"); /* Add your image path here */
+  background-image: url("../../assets/OfferImage.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

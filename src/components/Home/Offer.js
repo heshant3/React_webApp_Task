@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import style from "../styles/Offer.module.css";
-import logo from "../assets/image.png";
+import style from "../../styles/CityOffer/Offer.module.css";
+import logo from "../../assets/image.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

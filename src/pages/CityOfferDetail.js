@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "../styles/CityOfferDetail.module.css";
-import HeaderTop from "../components/HeaderTop";
-import StoryImageSlide from "../components/StoryImageSlide";
+import HeaderTop from "../components/CityOfferDetails/HeaderTop";
+import StoryImageSlide from "../components/CityOfferDetails/StoryImageSlide";
 
 export default function CityOfferDetail() {
   return (
-    <div className={styles.Container}>
+    <div>
       <StoryImageSlide />
       <HeaderTop />
     </div>

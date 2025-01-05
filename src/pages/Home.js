@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
-import styles from "../styles/Home.module.css";
-import StoryView from "../components/StoryView";
-import Offer from "../components/Offer";
-import SpecialOfferCard from "../components/SpecialOfferCard";
+import Header from "../components/Home/Header";
+import styles from "../styles/Home/Home.module.css";
+import StoryView from "../components/Home/StoryView";
+import Offer from "../components/Home/Offer";
+import SpecialOfferCard from "../components/Home/SpecialOfferCard";
 
 export default function Home() {
   return (

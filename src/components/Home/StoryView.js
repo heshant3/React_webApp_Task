@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import styles from "../styles/Story.module.css";
+import styles from "../../styles/Home/Story.module.css";
 
 const stories = [
   {

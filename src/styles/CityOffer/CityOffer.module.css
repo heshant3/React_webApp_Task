@@ -1,0 +1,30 @@
+.CityImage {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.5);
+}
+
+.BodyContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #f5f6f8;
+  width: 100%;
+  height: 100vh;
+  border-radius: 2em;
+  top: 14em;
+  padding-top: 2em;
+}
+
+.Text1 {
+  font-size: 01rem;
+  font-weight: 600;
+  color: #000000;
+  align-self: flex-start;
+  padding: 0em 0 1em 2em;
+}

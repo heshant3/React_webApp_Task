@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../styles/StoryImageSlide.module.css";
-import StoryImage from "../assets/Story.png";
-import StoryImage1 from "../assets/OfferImage1.png";
-import StoryImage2 from "../assets/OfferImage2.png";
+import styles from "../../styles/CityOfferDetails/StoryImageSlide.module.css";
+import StoryImage from "../../assets/Story.png";
+import StoryImage1 from "../../assets/OfferImage1.png";
+import StoryImage2 from "../../assets/OfferImage2.png";
 
 export default function StoryImageSlide() {
   const imageList = [

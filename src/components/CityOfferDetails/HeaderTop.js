@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/HeaderTop.module.css";
+import styles from "../../styles/CityOfferDetails/HeaderTop.module.css";
 import { FaRegHeart } from "react-icons/fa";
 
 export default function HeaderTop() {

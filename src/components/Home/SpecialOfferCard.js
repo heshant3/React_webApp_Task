@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../styles/SpecialOfferCard.module.css";
-import SpecialOfferImage from "../assets/SpecialOfferCard.png";
+import styles from "../../styles/Home/SpecialOfferCard.module.css";
+import SpecialOfferImage from "../../assets/SpecialOfferCard.png";
 
 export default function SpecialOfferCard() {
   return (
